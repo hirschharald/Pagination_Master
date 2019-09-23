@@ -22,7 +22,7 @@ const App = () => {
     <div>
       <div className="container">
         <div className="text-center">
-          <h1>React - Pagination Example with logic like Google</h1>
+          <h1>React - Pagination Example</h1>
           {pageOfItems.map(item => (
             <div key={item.id}>{item.name}</div>
           ))}
